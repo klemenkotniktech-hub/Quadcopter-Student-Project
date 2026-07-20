@@ -1,0 +1,12 @@
+CIP:       Arduino:
+SDA		SDA
+SLC		SLC
+GND		GND
+VCC_IN		5V
+
+
+Branje:
+vse klicano dobis ze pretvorjeno v enote:
+pospesek: m^2/s
+vrtenje:  deg/s
+kot:  stopinje

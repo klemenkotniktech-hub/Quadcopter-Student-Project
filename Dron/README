@@ -1,0 +1,61 @@
+# Quadcopter Flight Controller (Student Project)
+
+## Overview
+
+This repository contains a **university robotics project** developed during my Mechatronics studies. The goal was to design and implement a complete embedded software stack for a custom-built quadcopter, including the flight controller, remote controller, wireless communication, and calibration tools.
+
+The project reached the stage where the flight controller and communication infrastructure were implemented, and tuning of the flight control system had begun. Due to the completion of my studies and other commitments, development was discontinued before achieving fully stable autonomous flight.
+
+Although unfinished, this project demonstrates my early experience with embedded systems, real-time control, sensor fusion, and firmware development.
+
+## Features
+
+### Flight Controller
+
+* Developed in Arduino C/C++
+* Flight control firmware for a custom quadcopter
+* IMU sensor integration
+* Kalman filter for attitude estimation
+* PID-based stabilization controller
+* Control of four brushless DC motors (ESCs)
+* Battery voltage monitoring
+* Wireless communication with the remote controller
+
+### Remote Controller
+
+* Custom firmware for manual quadcopter operation
+* Wireless transmission of pilot commands
+* Real-time communication with the flight controller
+
+### Calibration & PID Tuning Station
+
+A dedicated calibration controller with a simple user interface was developed to simplify controller tuning.
+
+Features include:
+
+* LCD-based user interface
+* Six potentiometers for live PID parameter adjustment
+* Wireless communication with the quadcopter
+* Real-time controller tuning during testing
+
+### ESC Calibration Utility
+
+A separate firmware utility for calibrating Electronic Speed Controllers (ESCs), allowing each brushless motor to be calibrated individually before flight testing.
+
+## Technologies
+
+* Arduino C/C++
+* Embedded systems
+* IMU sensors
+* Kalman Filter
+* PID control
+* Brushless DC motors
+* Electronic Speed Controllers (ESC)
+* Wireless RF communication
+* Real-time embedded programming
+
+## Project Status
+
+**Status:** Archived (Student Project)
+
+This project is no longer under active development. It is published to showcase my early embedded software and control systems work completed during university.

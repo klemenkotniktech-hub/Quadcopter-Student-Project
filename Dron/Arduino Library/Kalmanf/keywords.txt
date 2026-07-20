@@ -1,0 +1,1 @@
+Kalmanf	KEYWORD1getAngle	KEYWORD2setAngle	KEYWORD2getRate	KEYWORD2setQangle	KEYWORD2setQbias	KEYWORD2setRmeasure	KEYWORD2getQangle	KEYWORD2getQbias	KEYWORD2getRmeasure	KEYWORD2getEstimateError	KEYWORD2getKalmangain0	KEYWORD2	getKalmangain1
